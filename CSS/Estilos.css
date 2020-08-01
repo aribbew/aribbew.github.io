@@ -23,7 +23,7 @@ figure{
 }
 
 .wrapper{
-	width: 1000px;
+	width: 1500px;
 	margin: 0 auto;
 	display: inherit;
 	justify-content: inherit;
@@ -33,7 +33,7 @@ figure{
 	background-color: #E2F3ED;
 }
 .wrapper_header{
-	width: 1000px;
+	width: 1500px;
 	margin: 0 auto;
 	display: inherit;
 	justify-content: inherit;
@@ -45,7 +45,7 @@ figure{
 
 }
 .wrapper_header_hero{
-	width: 1000px;
+	width: 1500px;
 	margin: 0 auto;
 	display: inherit;
 	justify-content: inherit;
