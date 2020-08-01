@@ -1,0 +1,293 @@
+/*HOJAS DE ESTILO ORGANIZADA FAVOR UTILIZAR CTRL+F PARA BUSCAR EN CADA SECCION CON SU CLASE PREDETERMINADA*/
+
+/*GENERALS*/
+.boton{
+	color: #ff0000;
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	margin: 0;
+}
+
+ol,
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+figure{
+	margin: 0;
+}
+
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+	background-color: #E2F3ED;
+}
+.wrapper_header{
+	width: 1000px;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+	background-color: #151515;
+	font-family: inherit;
+
+}
+.wrapper_header_hero{
+	width: 1000px;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+	font-family: inherit;
+}
+/*GENERALS*/
+
+/*HEADER*/
+.header {
+	display: flex;
+	justify-content: space-between;
+	height: 90px;
+}
+
+
+.menu{
+
+	font-family: 'Teko', sans-serif;
+	height: inherit;
+}
+
+
+
+.header ol{
+	display: flex;
+	height: inherit;
+
+}
+
+.header ol li{
+	height: inherit;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
+
+}
+/*HEADER*/
+
+/*HERO*/
+.hero{
+
+	font-family: 'Bebas Neue', cursive;
+	line-height: 2em;
+	font-size: 20px;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+.hero{
+	height: 435px;
+	background-image: url(../Imagenes/Frontdirectopng.png);
+	background-size: 500px; 
+	background-repeat: no-repeat;
+	background-position-x: center; 
+	background-position-y: 82px; 
+}
+.hero h1{
+	text-align: center;
+	margin: 0;
+}
+.hero h1 b{
+	color: #7DC9AA;
+}
+/*HERO*/
+
+/*CERTIFICATES*/
+.certificate_title{
+	color: #7DC9AA;
+	text-align: center;
+}
+
+.certificates{
+	display: flex;
+	justify-content: center;
+}
+
+.certificate{
+	margin: 30px;
+	width: 448px;
+	height: 30px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-sizing: content-box;
+	background-color: #75C0CB;
+	padding: 165px;
+	padding-top: 50px;
+	padding-bottom: 537px;
+}
+
+.certificate_image{
+	width: 448px;
+	object-fit: cover;
+}
+
+.certificate_detail{
+	margin: -1px -133px;
+	background-color: white;
+	margin-top: -45px;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+
+}
+.certificate_detail h5{
+		margin-top: -19px;
+}
+
+
+.certificate_detail h3{
+	color: #7DC9AA;
+}
+/*CERTIFICATES*/
+
+
+/*MODUS_OPERANDING*/
+.modus_operanding_title{
+	color: #7DC9AA;
+	padding-left: 5px;
+	text-align: center;
+}
+
+.Modus_operanding{
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.mode{
+	margin: 10px;
+	width: 448px;
+	height: 600px;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: #75C0CB;
+}
+
+.modusop_image{
+	width: 448px;
+	object-fit: cover;
+}
+
+.modus_detail{
+	margin: -16px 40px;
+	background-color: white;
+	margin-top: -46px;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+}
+
+.modus_detail h3{
+	color: #7DC9AA;
+}
+/*MODUS_OPERANDING*/
+
+/*CONTACT*/
+.contact{
+	background-color: #7DC9AA;
+	color: white;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.social_media{
+	padding-right: 42px;
+}
+
+.social_link{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-size: 50px 50px;
+}
+.social_link.IG{
+	background-image:url(../Imagenes/ig.png);
+}
+.social_link.FB{
+	background-image:url(../Imagenes/fb.png);
+}
+.social_link.GH{
+	background-image:url(../Imagenes/Gh.png);
+}
+.social_link.TT{
+	background-image:url(../Imagenes/TT.png);
+}
+.contact_email input{
+	border-color: #484E55;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 10px 20px 10px 25px;
+	background-image: url(../Imagenes/Email.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position-y: center; 
+	background-position.x: 5px; 
+
+}
+.contact_email button{
+	display: block;
+	margin-top: 10px;
+	background: transparent;
+	color: #484E55;
+	padding: 5px 20px 5px 25px;
+	border-radius: 5px;
+}
+.contact_email{
+	padding-left: 42px;
+}
+
+
+/*CONTACT*/
+
+/*FOOTER*/
+.footer{
+	background-color: #2C2F33;
+	color: #484E55;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+}
+.footer img{
+	vertical-align: middle;
+}
+.footer_detail_image{
+	padding-left: 10px;
+}
+.footer_detail_link{
+	padding-right: 10px;
+}
+.footer a{
+	color: #99C84A;
+}
+/*FOOTER*/
